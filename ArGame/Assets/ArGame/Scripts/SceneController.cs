@@ -7,7 +7,9 @@ using UnityEngine.EventSystems;
 public class SceneController : MonoBehaviour {
 
     private bool m_IsQuitting = false;
+    public Camera firstPersonCamera;
 
+    
     void Update () {
         _UpdateApplicationLifecycle ();
     }
